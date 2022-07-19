@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  margin: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+  position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 3.2rem;
+  width: 120rem;
+  height: 100%;
+}
+
+.btn {
+  font-size: 2rem;
+  padding: 1.75rem 3.5rem;
+  border-radius: 10rem;
+  border: none;
+  background-color: #fff;
+  font-weight: 600;
+  color: #444;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.heading-primary {
+  font-size: 2.4rem;
+}
+
+.hidden {
+  display: none;
+}
